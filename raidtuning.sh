@@ -17,4 +17,6 @@ echo 3 > /proc/sys/vm/drop_caches
 # read
 dd if=/mnt/testread.txt of=/dev/null bs=3355443 count=5120 >> /tmp/results.txt
 
+echo -e '\n \n \n' >> /tmp/results.txt
+
 done
